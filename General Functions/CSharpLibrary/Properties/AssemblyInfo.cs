@@ -19,6 +19,9 @@ using System.Runtime.InteropServices;
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
+//Following is used in order to allow testing of the class library in dedicated projects
+[assembly: InternalsVisibleTo("CSharpLibrary.Tests")]
+
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("d3bcc406-f12b-4cc8-8b15-f8b1e52f6d20")]
 
